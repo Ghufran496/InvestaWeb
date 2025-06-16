@@ -1,34 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Investa - Modern Investment Platform
 
-## Getting Started
+Investa is a modern, feature-rich investment web application built with Next.js that helps users make informed investment decisions. The platform provides real-time stock tracking, investment tips, and portfolio management tools.
 
-First, run the development server:
+## 📋 Overview
 
+Investa is designed to simplify the investment process by providing users with timely market insights, portfolio tracking tools, and a user-friendly interface for managing investments. The application features a responsive design that works seamlessly across desktop and mobile devices.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) 14.x
+- **UI Library**: [React](https://reactjs.org/) 18.x
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) 3.x
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **UI Components**: [Headless UI](https://headlessui.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Utilities**: 
+  - clsx (for conditional class names)
+  - use-debounce (for performance optimization)
+
+## ✨ Key Features
+
+- **Real-time Stock Tracking**: Monitor stock prices and market trends in real-time
+- **Investment Portfolio Management**: Build and track a balanced investment portfolio
+- **Insider Tips**: Get timely notifications about market movements
+- **Secure Transactions**: Encrypted and anonymized investment activities
+- **Performance Analytics**: Track your investment growth with detailed analytics
+- **Responsive Design**: Seamless experience across desktop and mobile devices
+- **Mobile App Integration**: Connect with the Investa mobile application
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/InvestaWeb.git
+cd InvestaWeb
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📦 Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Learn More
+Start the production server:
+```bash
+npm run start
+# or
+yarn start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Mobile Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Investa is available as a mobile application. The web platform integrates seamlessly with the mobile app, allowing users to manage their investments on the go.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔧 Project Structure
 
-## Deploy on Vercel
+- `/src/app`: Next.js app router pages
+- `/src/components`: Reusable UI components
+- `/src/constants`: Application constants and data
+- `/src/images`: Static images and assets
+- `/public`: Public assets
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Learn More
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To learn more about the technologies used in this project:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://reactjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Framer Motion Documentation](https://www.framer.com/motion/documentation/)
